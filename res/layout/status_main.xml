@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+    <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/reload" android:id="@+id/update_btn" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:background="@drawable/reload_btn" android:maxHeight="10dp" android:maxWidth="5dp"></ImageButton>
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:paddingLeft="10dp" android:textColor="#ffffff"
+		android:id="@+id/current_update_id" android:paddingBottom="5dp" android:paddingTop="5dp" android:textSize="17sp" android:layout_below="@+id/update_btn"></TextView>
+	<ListView android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/statusListView" android:background="#ffffffff" android:cacheColorHint="#ffffffff" android:layout_below="@+id/current_update_id"/>
+	<TextView android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_width="fill_parent" android:text="Current Status" android:textStyle="bold" android:textColor="@color/white" android:gravity="center_vertical|center_horizontal" android:textSize="25dp"></TextView>
+</RelativeLayout>

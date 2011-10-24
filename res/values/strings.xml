@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Ride On Time NYC</string>
+	<string name="mta_feed">http://www.mta.info/status/serviceStatus.txt</string>
+	<string name="current_update_button_text">Update Service Status</string>
+	<string name="current_update_text">Current as of</string>
+	<string name="current_update_none">No New Updates</string>
+	<string name="mta_title_dialog">MTA Service Notice</string>
+	<string name="mta_title_subway">Subway</string>
+	<string name="mta_title_bus">Bus</string>
+	<string name="mta_title_lirr">LIRR</string>
+	<string name="mta_title_metro">Metro-North</string>
+	<string name="mta_title_bt">Bridges And Tunnels</string>
+	<string name="mta_status_good">GOOD SERVICE</string>
+	<string name="mta_status_planned">PLANNED WORK</string>
+	<string name="mta_status_delay">DELAYS</string>
+	<string name="mta_status_service">SERVICE CHANGE</string>
+	<string name="menu_zoom">Zoom</string>
+    <string name="menu_pan">Pan</string>
+    <string name="menu_reset">Reset</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<style name="MyTheme" parent="@android:style/Theme.Black">
+    <item name="android:tabWidgetStyle">@style/TabWidget</item>
+</style>
+
+
+<style name="TabWidget" parent="@android:style/Widget.TabWidget">
+    <!-- set textColor to red, so you can verify that it applied. -->
+    <!-- <item name="android:textColor">#f00</item>-->
+    <item name="android:textAppearance">@style/TabWidgetText</item>
+</style>
+       
+<style name="TabWidgetText" parent="@android:style/TextAppearance.Widget.TabWidget">
+      <item name="android:textSize">14sp</item>
+      <item name="android:textStyle">normal</item>
+      <item name="android:textColor">@color/tab_indicator_text</item>
+</style>
+       
+</resources>                
